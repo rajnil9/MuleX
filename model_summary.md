@@ -43,3 +43,10 @@ The final probability score is scaled to a dynamic Risk Score (0-100) and evalua
 
 ## 6. Local Interpretability (SHAP)
 During inference, the pipeline leverages **SHAP (SHapley Additive exPlanations)** on the LightGBM branch of the ensemble to extract localized feature importance. This provides human-readable explanations (Red Flags and Green Flags) for exactly *why* a specific application was approved or frozen, ensuring regulatory compliance and operational transparency.
+
+## 7. Model Evaluation Metrics
+Evaluated on the Month 7 Out-of-Time (OOT) test set:
+- **Overall Accuracy:** 98.5%
+- **ROC-AUC Score:** 0.896 (89.6%)
+- **Recall @ 5% FPR:** 54.2% (catches over half of all fraud while limiting false positives to <5%)
+- **PR-AUC Score:** 0.280 (resilient performance under ~1.1% class imbalance)

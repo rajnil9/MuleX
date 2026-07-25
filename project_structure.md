@@ -41,13 +41,21 @@ This document provides a simple explanation of every file and folder currently p
 
 ## 📄 Documentation & Configuration Files
 
+- **`README.md`**
+  - **Purpose**: Project Overview & Quickstart.
+  - **What it does**: Comprehensive repository guide containing architecture highlights, performance metrics, CLI commands, and directory layouts.
+
+- **`HACKATHON_PITCH_DECK.md`**
+  - **Purpose**: Master Pitch Deck & Defense Brief.
+  - **What it does**: Executive summary, problem/solution breakdown, technical specification, inference examples, and Judge Q&A defense guide for hackathon presentation.
+
 - **`batch_test_cases.json`**
   - **Purpose**: Inference Benchmarking.
   - **What it does**: Contains 20 simulated customer applications (a mix of low, medium, and high risk). It is used to test if `inference.py` is correctly identifying fraud.
 
 - **`model_summary.md`**
   - **Purpose**: Architecture Documentation.
-  - **What it does**: A concise, non-technical explanation of the machine learning techniques used in this project (Optuna, Stacking, Focal Loss, etc.).
+  - **What it does**: A concise explanation of the machine learning techniques used in this project (Optuna, Stacking, Focal Loss, OOT evaluation metrics).
 
 - **`prompt.md`**
   - **Purpose**: System Specification.
