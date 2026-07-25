@@ -1,0 +1,14 @@
+pandas
+polars
+numpy
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+category-encoders
+shap
+optuna
+reportlab
+matplotlib
+seaborn
+jupyter
